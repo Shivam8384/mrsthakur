@@ -40,10 +40,10 @@ display:none;
 
 /* MAIN CARD */
 
-.mainCard,
+overflow:visible.mainCard,
 .quizCard,
 .winCard,
-.countCard{overflow:visible;
+.countCard{;
 
 background:rgba(255,255,255,.18);
 
@@ -610,6 +610,9 @@ width:260px;
 
 }
 /* ===== WELCOME PAGE ===== */
+<p style="margin-top:40px;color:white;">
+Scroll Down For More Love ❤️
+</p>
 
 /* FINAL WELCOME FIX */
 
@@ -618,6 +621,7 @@ text-align:center;
 max-width:900px;
 margin:auto;
 padding:25px;
+min-height:130vh;
 }
 
 .welcomeGif{
