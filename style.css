@@ -29,12 +29,9 @@ animation:bgMove 12s ease infinite;
 section{
 width:100%;
 min-height:100vh;
-height:auto;
-display:flex;
-justify-content:center;
-align-items:center;
 text-align:center;
 padding:20px;
+display:block;
 }
 
 .hidden{
@@ -46,7 +43,7 @@ display:none;
 .mainCard,
 .quizCard,
 .winCard,
-.countCard{
+.countCard{overflow:visible;
 
 background:rgba(255,255,255,.18);
 
@@ -655,4 +652,29 @@ overflow:hidden;
 }
 .quizGif .tenor-gif-embed{
 width:110px !important;
+}
+@media (max-width:768px){
+
+.mainCard,
+.quizCard,
+.winCard,
+.countCard,
+.letterCard{
+
+width:95%;
+padding:20px;
+}
+
+.mainCard h1,
+.quizCard h1,
+.winCard h1{
+font-size:36px;
+}
+
+.mainCard h2,
+.quizCard h2,
+.winCard h2{
+font-size:24px;
+}
+
 }
